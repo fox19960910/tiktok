@@ -3,8 +3,18 @@
 
 :root {
     --primary-color: '#fe2c55';
+    --grey-color: rgba(22, 24, 35, 0.06);
+    --grey-color1: rgba(22, 24, 35, 0.03);
+    //Default layout
+    --default-header-height-size: 60px;
+    --default-layout-width: 1150px;
+    --default-input-height-size: 46px;
 }
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 html {
     font-size: 62.5%;
 }
@@ -13,4 +23,10 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+}
+input,
+textarea {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
 }
